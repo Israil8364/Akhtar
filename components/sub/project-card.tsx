@@ -4,21 +4,16 @@ import Link from "next/link";
 type ProjectCardProps = {
   src: string;
   title: string;
-  link: string;
+  href: string;
 };
 
 export const ProjectCard = ({
   src,
   title,
-  link,
+  href,
 }: ProjectCardProps) => {
   return (
-    <Link
-      href={link}
-      target="_blank"
-      rel="noreferrer noopener"
-      className="w-full relative overflow-hidden rounded-lg shadow-lg hover:scale-[1.06] transition  ring-blue-500 border border-[#2A0E61]"
-    >
+    <Link href={href} className="w-full relative overflow-hidden rounded-lg shadow-lg hover:scale-[1.06] transition  ring-blue-500 border border-[#2A0E61]">
       <Image
         src={src}
         alt={title}

@@ -21,7 +21,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] h-4 w-4 md:h-5 md:w-5" />
           <h1 className="text-[12px] md:text-[13px] text-gray-200 font-semibold">
-            Fullstack Developer
+           Automation Developer & AI Expert
           </h1>
         </motion.div>
 
@@ -34,9 +34,9 @@ export const HeroContent = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Ideas
           </span>{" "}
-          into Seamless User{" "}
+          into Time-Saving{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Experiences
+            Systems
           </span>
         </motion.h1>
 
@@ -45,16 +45,18 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[500px] mx-auto md:mx-0"
         >
-          I&apos;m a Full Stack Software Engineer specializing in building modern web applications. Check out my projects and skills.
+          I&apos;m Akhtar an Automation Developer passionate about building AI-powered solutions that save time, cut costs, and unlock productivity.
         </motion.p>
 
         {/* Call-to-Action Button */}
       <motion.a
   variants={slideInFromLeft(1)}
-  href="#projects"
+  href="https://cal.com/israil-khan-k4xrld/book-a-call-with-akhtar"
+  target="_blank"
+  rel="noopener noreferrer"
   className="py-4 px-5 sm:px-6 bg-transparent border-[#7D43FF] border-2 text-white text-base sm:text-base font-medium rounded-full shadow-lg transition-transform hover:scale-105 max-w-[110px] sm:max-w-[180px] mx-auto md:mx-0 flex items-center justify-center"
 >
-  Learn more
+  Book A Call
 </motion.a>
 
       </div>
