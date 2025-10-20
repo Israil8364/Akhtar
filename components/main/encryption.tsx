@@ -7,11 +7,11 @@ import { slideInFromTop } from "@/lib/motion";
 
 export const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full -z-20">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="flex flex-row relative items-center justify-center min-h-[60vh] sm:min-h-screen w-full h-full -z-20">
+      <div className="absolute w-auto h-auto top-[10%] sm:top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-[28px] sm:text-[40px] font-medium text-center text-gray-200 px-4 sm:px-0"
         >
           Performance{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -21,8 +21,8 @@ export const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+      <div className="flex flex-col items-center justify-center translate-y-[-20px] sm:translate-y-[-50px] absolute z-[20] w-auto h-auto">
+        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto scale-75 sm:scale-100">
           <Image
             src="/lock-top.png"
             alt="Lock top"
@@ -39,13 +39,13 @@ export const Encryption = () => {
           />
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042F88B] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
+        <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[15px] sm:my-[20px] border-[#7042F88B] opacity-[0.9]">
+          <h1 className="Welcome-text text-[12px] sm:text-[14px]">Encryption</h1>
         </div>
       </div>
 
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+      <div className="absolute z-[20] bottom-[10%] sm:bottom-[10px] px-4 sm:px-5 w-full">
+        <div className="cursive text-[16px] sm:text-[20px] font-medium text-center text-gray-300">
           Secure your data with end-to-end encryption.
         </div>
       </div>

@@ -15,7 +15,7 @@ export const Navbar = () => {
       <div className="flex items-center justify-between h-[70px] px-5 md:px-10">
         {/* Logo & Name */}
         <Link 
-          href="#about-me" 
+          href="/" 
           className="flex items-center gap-2" 
           onClick={closeMenu}
         >
@@ -25,9 +25,9 @@ export const Navbar = () => {
             width={40}
             height={40}
             draggable={false}
-            className="cursor-pointer"
+            className="cursor-pointer rounded-full border-2 border-[#7042f88b] hover:border-[#7042f8] transition-colors"
           />
-          <span className="hidden sm:block text-white font-bold tracking-wide">
+          <span className="text-white font-bold tracking-wide text-sm sm:text-base">
             I&apos;m Akhtar 
           </span>
         </Link>

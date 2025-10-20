@@ -54,7 +54,7 @@ export const HeroContent = () => {
   href="https://cal.com/israil-khan-k4xrld/book-a-call-with-akhtar"
   target="_blank"
   rel="noopener noreferrer"
-  className="py-4 px-5 sm:px-6 bg-transparent border-[#7D43FF] border-2 text-white text-base sm:text-base font-medium rounded-full shadow-lg transition-transform hover:scale-105 max-w-[110px] sm:max-w-[180px] mx-auto md:mx-0 flex items-center justify-center"
+  className="py-3 px-6 bg-transparent border-[#7D43FF] border-2 text-white text-sm sm:text-base font-medium rounded-full shadow-lg transition-all hover:scale-105 hover:bg-[#7D43FF]/20 whitespace-nowrap w-fit mx-auto md:mx-0 flex items-center justify-center"
 >
   Book A Call
 </motion.a>

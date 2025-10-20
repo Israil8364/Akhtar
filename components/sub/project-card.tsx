@@ -13,17 +13,25 @@ export const ProjectCard = ({
   href,
 }: ProjectCardProps) => {
   return (
-    <Link href={href} className="w-full relative overflow-hidden rounded-lg shadow-lg hover:scale-[1.06] transition  ring-blue-500 border border-[#2A0E61]">
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full h-60  object-cover rounded-lg object-left-top "
-      />
+    <Link 
+      href={href} 
+      className="group w-full relative overflow-hidden rounded-xl shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-[#2A0E61] bg-gradient-to-br from-[#0a0a0a] to-[#1a1a2e] hover:border-cyan-500/50"
+    >
+      <div className="relative h-48 overflow-hidden">
+        <Image
+          src={src}
+          alt={title}
+          width={400}
+          height={300}
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
 
-      <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
+      <div className="p-6">
+        <h3 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition-colors duration-300 line-clamp-2">
+          {title}
+        </h3>
       </div>
     </Link>
   );
