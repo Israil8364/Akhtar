@@ -8,8 +8,9 @@ import {
   RxNotionLogo,
   RxCalendar,
 } from "react-icons/rx";
+import { Skill } from "@/types/skills";
 
-export const SKILL_DATA = [
+export const SKILL_DATA: Skill[] = [
   {
     skill_name: "N8N",
     image: "n8n.png",
@@ -68,7 +69,7 @@ export const SKILL_DATA = [
   },
 
 
-] as const;
+];
 
 export const SOCIALS = [
   {
@@ -88,7 +89,7 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
+export const FRONTEND_SKILL: Skill[] = [
 
   {
     skill_name: "Elevenlabs",
@@ -127,15 +128,14 @@ export const FRONTEND_SKILL = [
   },
 ] as const;
 
-export const BACKEND_SKILL = [
-
+export const BACKEND_SKILL: Skill[] = [
 
 ] as const;
 
-export const FULLSTACK_SKILL = [
+export const FULLSTACK_SKILL: Skill[] = [
 ] as const;
 
-export const OTHER_SKILL = [
+export const OTHER_SKILL: Skill[] = [
 
 ] as const;
 
