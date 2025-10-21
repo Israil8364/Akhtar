@@ -1,4 +1,4 @@
-import { HeroContent } from "@/components/sub/hero-content.tsx";
+import { HeroContent } from "@/components/sub/hero-content";
 
 export const Hero = () => {
   return (

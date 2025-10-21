@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { PROJECTS } from "@/constants/index.ts";
+import { PROJECTS } from "@/constants";
 
 export default function ProjectsIndexPage() {
   return (

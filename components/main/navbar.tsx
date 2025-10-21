@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS, SOCIALS } from "@/constants/index.ts";
+import { NAV_LINKS, SOCIALS } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const Navbar = () => {
