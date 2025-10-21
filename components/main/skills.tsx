@@ -1,5 +1,5 @@
-import { SkillDataProvider } from "@/components/sub/skill-data-provider";
-import { SkillText } from "@/components/sub/skill-text";
+import { SkillDataProvider } from "@/components/sub/skill-data-provider.tsx";
+import { SkillText } from "@/components/sub/skill-text.tsx";
 
 import {
   BACKEND_SKILL,
@@ -7,7 +7,7 @@ import {
   FULLSTACK_SKILL,
   OTHER_SKILL,
   SKILL_DATA,
-} from "@/constants";
+} from "@/constants/index.ts";
 
 export const Skills = () => {
   return (

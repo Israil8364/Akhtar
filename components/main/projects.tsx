@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ProjectCard } from "@/components/sub/project-card";
-import { PROJECTS } from "@/constants";
+import { ProjectCard } from "@/components/sub/project-card.tsx";
+import { PROJECTS } from "@/constants/index.ts";
 
 export const Projects = () => {
   return (

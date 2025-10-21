@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import { PROJECTS } from "@/constants";
+import { PROJECTS } from "@/constants/index.ts";
 
 type PageProps = {
   params: { slug: string };
